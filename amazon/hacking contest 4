@@ -1,0 +1,64 @@
+total_inputs = int(input(""))
+data = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
+input_data = []
+output_data = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+
+for _ in range(total_inputs):
+ input_data.append(input(""))
+
+for elements in input_data:
+ for single_element in elements:
+  if single_element == "a":
+   output_data[0] += 1
+  if single_element == "b":
+   output_data[1] += 1
+  if single_element == "c":
+   output_data[2] += 1  
+  if single_element == "d":
+   output_data[3] += 1
+  if single_element == "e":
+   output_data[4] += 1
+  if single_element == "f":
+   output_data[5] += 1
+  if single_element == "g":
+   output_data[6] += 1
+  if single_element == "h":
+   output_data[7] += 1
+  if single_element == "i":
+   output_data[8] += 1
+  if single_element == "j":
+   output_data[9] += 1
+  if single_element == "k":
+   output_data[10] += 1
+  if single_element == "l":
+   output_data[11] += 1
+  if single_element == "m":
+   output_data[12] += 1
+  if single_element == "n":
+   output_data[13] += 1
+  if single_element == "o":
+   output_data[14] += 1
+  if single_element == "p":
+   output_data[15] += 1
+  if single_element == "q":
+   output_data[16] += 1
+  if single_element == "r":
+   output_data[17] += 1
+  if single_element == "s":
+   output_data[18] += 1
+  if single_element == "t":
+   output_data[19] += 1
+  if single_element == "u":
+   output_data[20] += 1
+  if single_element == "v":
+   output_data[21] += 1
+  if single_element == "w":
+   output_data[22] += 1
+  if single_element == "x":
+   output_data[23] += 1
+  if single_element == "y":
+   output_data[24] += 1
+  if single_element == "z":
+   output_data[25] += 1
+ print(*output_data, " ")
+ output_data = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
