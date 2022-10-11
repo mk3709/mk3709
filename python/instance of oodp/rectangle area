@@ -1,0 +1,41 @@
+class rectangle:
+      length = 0;
+      breadth = 0;
+      def __init__(self, *args): 
+ 
+        if len(args) == 2: 
+ 
+            self.length=args[0]; 
+ 
+            self.breadth=args[1]    
+        elif len(args) == 1: 
+ 
+            self.length=args[0] 
+ 
+            self.breadth=args[0] 
+ 
+             
+ 
+        else: 
+ 
+            self.length=0 
+            self.breadth=0 
+     
+      def area(self): 
+ 
+        return self.length*self.breadth; 
+ 
+r1=rectangle(5,10) 
+ 
+print(r1.area()) 
+ 
+  
+ 
+r2=rectangle(10) 
+ 
+print(r2.area()) 
+ 
+  
+ 
+r3=rectangle() 
+print(r3.area())
