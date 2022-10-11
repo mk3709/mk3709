@@ -1,0 +1,17 @@
+class PrintDT:
+    def py_data(self,list):
+        self.list=[]
+        print(self.list)
+        
+    def py_data(self,tuple):
+        self.tuple=()
+        print(tuple)
+        
+    def py_data(self,str):
+        self.str=&#39;&#39;
+        print(str)
+        
+p=PrintDT()
+p.py_data([1,2,3])
+p.py_data((&#39;a&#39;,[8,4,6],&quot;mouse&quot;))
+p.py_data(&#39;amit&#39;)
