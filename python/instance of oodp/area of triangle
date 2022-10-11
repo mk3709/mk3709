@@ -1,0 +1,19 @@
+class Triangle:
+    def findPerimeter(self, s1, s2, s3):
+        return (s1 + s2 + s3)
+ 
+    def findArea(self, s1, s2, s3):
+        p = (s1 + s2 + s3)
+        s = p/2
+        return (s * (s-s1) * (s-s2)*(s-s3))**0.5
+ 
+s1 = float(input(&quot;Enter the first side of the triangle : &quot;))
+s2 = float(input(&quot;Enter the second side of the triangle : &quot;))
+s3 = float(input(&quot;Enter the third side of the triangle : &quot;))
+
+ 
+u = Triangle()
+ 
+print(&quot;The perimeter of the triangle is : {0:.2f}&quot;.format(
+    u.findPerimeter(s1, s2, s3)))
+print(&quot;The area of the triangle is : {0:.2f}&quot;.format(u.findArea(s1, s2, s3)))
