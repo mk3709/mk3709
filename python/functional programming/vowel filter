@@ -1,0 +1,9 @@
+letters = ['g','e','e','j','k','s','p','r']
+def filter_vowels(letter):
+    vowels = ['a', 'e', 'i', 'o', 'u']
+    return True if letter in vowels else False
+
+filtered_vowels = filter(filter_vowels, letters)
+
+vowels = tuple(filtered_vowels)
+print(vowels)
