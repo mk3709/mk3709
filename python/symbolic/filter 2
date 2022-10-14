@@ -1,0 +1,10 @@
+alphabets = ['a', 'b', 'U', 'd', 'e', 'i', 'j', 'o', 'x', 'A', 'Z', 't']  def filterVowels(alpha): 
+ vowels = ['a', 'e', 'i', 'o', 'u']  
+ if(alpha.lower() in vowels):  
+ return True 
+ else: 
+ return False 
+filter_vowel = filter(filterVowels, alphabets) print("Original Sequence :",alphabets) 
+print("\nFiltered letters are : ") 
+for i in filter_vowel: 
+ print(i,end=" ")
