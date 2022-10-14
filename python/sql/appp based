@@ -1,0 +1,23 @@
+import sqlite3 
+conn=sqlite3.connect('App.db') 
+print("Opened database successfully") 
+conn.execute("CREATE TABLE Student(SNo INT PRIMARY KEY NOT NULL,Regno text,name text,gender text,email text,phone  text,dept text);") 
+print("Table created successfully") 
+conn.execute("INSERT INTO Student VALUES(1,490,'Someone','male','xyz@gmail.com','098172','Ctech');") conn.execute("INSERT INTO Student VALUES(2,800,'Anyone','male','pqr@gmail.com','986643','ECE');") conn.execute("INSERT INTO Student VALUES(3,360,'Random','female','lmn@gmail.com','875567','Biotech');") conn.execute("INSERT INTO Student VALUES(4,440,'StudRa','female','dgf@gmail.com','765357','Ctceh');") conn.commit() 
+print("Records inserted successfully"); 
+print("\nDisplaying the table \n") 
+for rows in conn.execute("SELECT * from Student;"): 
+ print(rows) 
+print("\nPART B\n") 
+for rows in conn.execute("SELECT regno,name,dept from Student;"): 
+ print(rows) 
+print("\nPART C\n") 
+for rows in conn.execute("SELECT name from Student WHERE name LIKE '%Ra';"): 
+ print(rows) 
+print("\nPART D\n") 
+for rows in conn.execute("SELECT name from Student WHERE gender='female';"): 
+ print(rows) 
+print("\nPART E\n") 
+for rows in conn.execute("SELECT name from Student ORDER BY name DESC"): 
+ print(rows) 
+conn.close()
