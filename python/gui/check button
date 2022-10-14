@@ -1,0 +1,16 @@
+from tkinter import * 
+r=Tk() 
+def func1(): 
+ label1.configure(text="Male") 
+def func2(): 
+ label2.configure(text="Female")  
+r.title("Checkbutton") 
+c1=Checkbutton(r,text="Male",command=func1) 
+c1.grid(row=0,column=0) 
+c2=Checkbutton(r,text="Female",command=func2) 
+c2.grid(row=1,column=0) 
+label1=Label(r,text="") 
+label1.grid(row=0,column=1) 
+label2=Label(r,text="") 
+label2.grid(row=1,column=1) 
+r.mainloop() 
