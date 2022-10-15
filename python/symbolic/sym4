@@ -1,0 +1,10 @@
+import sympy as sym
+sym.cos(x) * sym.cos(y) - sym.sin(x) * sym.sin(y)
+
+from sympy import *
+expand(x + y, complex=True)
+
+import sympy as sym
+sym.I * sym.im(x) + sym.I * sym.im(y) + sym.re(x) + sym.re(y)
+
+sym.limit(sym.sin(x) / x, x, 0)
