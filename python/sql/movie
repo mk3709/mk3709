@@ -1,0 +1,20 @@
+
+CREATE TABLE movie (
+  Movie_ID int(11),
+  Movie_Name varchar(400),
+  Genre text,
+  Language varchar(400),
+  Rating int(11)
+);
+
+-- insert
+INSERT INTO movie VALUES (0001, 'Avatar', 'SCI-FI','ENGLISH','    9');
+INSERT INTO movie VALUES (0001, 'Mersal', 'Action','Tamil','     10');
+INSERT INTO movie VALUES (0001, 'Dangal', 'SPORTS','ENGLISH','    6');
+INSERT INTO movie VALUES (0001, 'NARUTO', 'ANIME','JAPANEESE','    10');
+INSERT INTO movie VALUES (0001, 'JJK', 'SCI-FI','ENGLISH','    10');
+INSERT INTO movie VALUES (0001, 'OP', 'SCI-FI','ENGLISH','     9');
+
+update movie
+set Rating=Rating+(Rating*0.1);
+select Movie_Name,Rating from movie;
