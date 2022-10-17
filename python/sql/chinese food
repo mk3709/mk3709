@@ -1,0 +1,21 @@
+CREATE TABLE recipes (
+  id int(11),
+  name varchar(400),
+  description text,
+  category_id int(11),
+  chef_id varchar(400),
+  created datetime
+);
+
+-- insert
+INSERT INTO recipes VALUES (0001, 'DRAGON FRY', 'Chinese',001,'BL000002','2022-08-21');
+INSERT INTO recipes VALUES (0002, 'FISH', 'Indian',002,'BL000002','2022-07-21');
+INSERT INTO recipes VALUES (0003, 'carrot FRY', 'Chinese',003,'BL000002','2022-08-21');
+INSERT INTO recipes VALUES (0004, 'prawn', 'Chinese',001,'BL000009','2022-08-21');
+INSERT INTO recipes VALUES (0005, 'king FRY', 'Italian',002,'BL000008','2022-08-21');
+INSERT INTO recipes VALUES (0006, 'roast FRY', 'Spanish',001,'BL000004','2022-08-21');
+INSERT INTO recipes VALUES (0007, 'mushroom', 'French',001,'BL000005','2022-08-21');
+INSERT INTO recipes VALUES (0008, 'parrot', 'Italian',002,'BL000001','2022-08-21');
+
+
+select * from recipes where description='Chinese';
