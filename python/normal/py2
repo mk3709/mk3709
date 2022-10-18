@@ -1,0 +1,9 @@
+s1= input('enter the string')
+s2= input('enter the number to check')
+res =False
+for i in range(len(s1)):
+  if s1[i:]+s1[:i]==s2:
+    res = True
+  break;
+print('are two strings rotionally equal ?:'+str(res))
+ 
