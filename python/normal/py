@@ -1,0 +1,10 @@
+s=input("eneter the string ")
+D={'b':'d','d':'b','i':'i','o':'o','v':'v','w':'w','x':'x'}
+res = ''
+for i in s :
+  if i in D:
+    res +=D[i]
+  else :
+    res= 'not possible'
+    break;
+  print (' the required string in reverse'+str(res))
