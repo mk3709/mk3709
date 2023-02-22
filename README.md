@@ -3,7 +3,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=mk3709&label=Profile%20views&color=0e75b6&style=flat" alt="mk3709" /> </p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=darkhub" alt="mk3709" /></a> </p>
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=mk3709" alt="mk3709" /></a> </p>
 
 - 🔭 I’m currently working on **AI BASED COLLISION AVOIDANCE SYSTEM**
 
