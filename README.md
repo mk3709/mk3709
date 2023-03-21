@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm H.MADAR HUSSAIN KHAN</h1>
-<h3 align="center">A passionate  developer from India</h3>
+<h3 align="center">A passionate developer from India</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=mk3709&label=Profile%20views&color=0e75b6&style=flat" alt="mk3709" /> </p>
 
@@ -7,9 +7,11 @@
 
 - 🔭 I’m currently working on **AI BASED COLLISION AVOIDANCE SYSTEM**
 
+- 🌱 I’m currently learning **IT-Security**
+
 - 👯 I’m looking to collaborate on **CYBER SECURITY PROJECTS**
 
-- 🤝 I’m looking for help with **ML PROJECTS**
+- 🤝 I’m looking for help with **ML PROJECTS AND CYBER SECURITY**
 
 - 📫 How to reach me **mk3709@srmist.edu.in**
 
